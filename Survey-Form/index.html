@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            * { font-family: Arial;
+                color: Black; }
+
+            h1 { color:blue;
+                font-family:'Times New Roman';
+            }
+
+            h4 { color:darkgoldenrod}
+
+            h5 { color :darkslategray }
+
+            #name, #age { color:cadetblue }
+            #email, #school { color:coral}
+
+            #checkbox { color:darkred;
+                        font-family: 'Times New Roman';}
+        
+        </style>
+    </head>
+
+    <body>
+        <h1>Survey for League of Legends Academy</h1>
+     
+        <p><lable for="name" id="name">What is your name? </lable><input name="name fiedld" value=""></p>
+        <p><lable for="email" id="email">What is your email? </lable><input name="name fiedld" value=""</p>
+        <p><lable for="age" id="age">What is your age? </lable><input name="name fiedld" value=""</p>
+        <p><lable for="school" id="school">What is your school? </lable><input name="name fiedld" value=""</p>
+
+        <h4>Choose your gender</h2>
+        <lable for="female">Female</lable><input id="female" name="gender" type="radio" value="female">
+        <lable for="male">Male</lable><input id="female" name="gender" type="radio" value="male">
+
+        <h4>Most favorite position(multiple choice possible)</h2>
+        <lable for="top" id="checkbox">Top</lable><input id="top" name="position" type="checkbox" value="top">
+        <lable for="mid" id="checkbox">Mid</lable><input id="mid" name="position" type="checkbox" value="mid">
+        <lable for="bottom" id="checkbox">Bottom</lable><input id="bottom" name="position" type="checkbox" value="bottom">
+        <lable for="support" id="checkbox">Support</lable><input id="support" name="position" type="checkbox" value="support">
+        <lable for="jungle" id="checkbox">Jungle</lable><input id="jungle" name="position" type="checkbox" value="jungle">
+
+         
+        <h4>What is your rank?(bronze, silver, gold, platinum)</h4>
+        <label for="options"><h5>Options</h5></label>
+        <select id="options" name="options">
+              <option value="1">bronze</option>
+              <option value="2">silver</option>
+              <option value="3">gold</option>
+              <option value="4">platinum</option>
+            </select>
+          
+            <label for="find"><h4>How did you find out our academy?</h4></label>
+            <input type="text" list="method" id="find">
+            <datalist id="method">
+                <option value="Internet"></option>
+                <option value="Friends"></option>
+                <option value="Parents"></option>
+                <option value="SNS"></option>
+            </datalist>
+
+        <h4>Anything else want to tell us?</h4>
+        <label for="comments"><h4>Post Comments:</h4></label>
+        <textarea id="comments" name="comments" rows="3" cols="10">
+
+        </textarea>
+
+
+
+
+    </body>
+</html>
+  
+  
